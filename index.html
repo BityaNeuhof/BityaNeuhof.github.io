@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- This website is based on https://github.com/r02b/academic-website-template -->
+<html lang="en">
+    <head>
+        <!-- scripts, css and such -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans|Space+Mono|Muli|Garamond">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+            <link href="assets/css/main.css" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+            <meta charset="UTF-8">
+
+            <!-- Title! -->
+            <title>Bitya Neuhof's Homepage</title>
+    </head>
+
+    <body>
+
+        <div id="nav-placeholder"></div>
+
+        <div id="content">
+            <div class="row">
+            <!-- Profile picture div-->
+            <div id="picture" class="section col-md-3 align-left">
+                <img src="assets/img/profile-pic.jpg">
+            </div>
+
+            <!-- Main content div  - insert sections here -->
+            <div id="text" class="col-md-8">
+
+            <!-- Each section is made of a title and content. Remember to link each section in /elements/nav.html ! -->
+                <div class="section" id="about">
+                    <div class="section-title">
+                        About
+                    </div>
+                    <div class="section-content">
+                        I am Bitya, a fourth-year PhD candidate in the <a href="https://en.stat.huji.ac.il/" target="_blank">Department of Statistics and Data Science</a> 
+                        at the <a href="https://en.huji.ac.il/" target="_blank">Hebrew University of Jerusalem</a>. 
+                        My research, supervised by <a href="https://sites.google.com/view/yuvalbenjamini/home" target="_blank">Yuval Benjamini</a>, 
+                        focuses on the stability and reliability of explainable AI methods.
+                    </div>
+                </div>
+
+
+                <div class="section" id="publications">
+                    <div class="section-title">
+                        Publications
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="paper1">
+                                <span class="paper-name">Confident Feature Ranking</span>
+                                <span class="paper-details"></span>
+                                    [<a href="https://proceedings.mlr.press/v238/neuhof24a.html" target="_blank">full text</a>],
+                                    [<a href="https://github.com/BityaNeuhof/confident_feature_ranking" target="_blank">code</a>]
+                                </span>
+                                <br>
+                                <span class="paper-authors"><b>Bitya Neuhof</b>, Yuval Benjamini</span>
+                                <br>
+                                <span class="paper-venue">In International Conference on Artificial Intelligence and Statistics (PMLR), 2024.</span>
+                            </li>
+                            <li id="paper2">
+                                <span class="paper-name">Venous thromboembolism during pregnancy: Trends, incidence, and risk patterns in a large cohort population</span>
+                                <span class="paper-details">
+                                    [<a href="https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/ijgo.14414" target="_blank">full text</a>]
+                                </span>
+                                <br>
+                                <span class="paper-authors">Shai Ram, Hila Shalev-Ram, <b>Bitya Neuhof</b>, Roza Berkovitz-Shperling, Gabriel Chodick, Yariv Yogev</span>
+                                <br>
+                                <span class="paper-venue">In International Journal of Gynecology & Obstetrics, 2023.</span>
+                            </li>
+                            <li id="paper3">
+                                <span class="paper-name">Air travel during pregnancy and the risk of venous thrombosis</span>
+                                <span class="paper-details">
+                                    [<a href="#" target="_blank">full text</a>]
+                                </span>
+                                <br>
+                                <span class="paper-authors">Shai Ram, Hila Shalev-Ram, <b>Bitya Neuhof</b>, Roei Shlezinger, Yael Shalev-Rosental, Gabriel Chodick, Yariv Yogev</span>
+                                <br>
+                                <span class="paper-venue">In American Journal of Obstetrics & Gynecology (MFM), 2023.</span>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="section" id="awards">
+                    <div class="section-title">
+                        Awards
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li id="award1">Outstanding poster award, Annual conference of the Israeli Statistical Association (2024).</li>
+                            <li>David Assaf prize for excellent PhD students, the department of Statistics and Data Science, Hebrew University (2024).</li>
+                            <li>Atid B'ivrit PhD scholarship, Hebrew University (2022-).</li>
+                            <li>Center for Interdisciplinary Data Science Research (CIDR) PhD scholarship, Hebrew University (2022-2023).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section" id="outreach">
+                    <div class="section-title">
+                        Outreach
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Orginazer of NeurIPS 2024 workshop <a href="https://interpretable-ai-workshop.github.io/" target="_blank">Interpretable AI: Past, Present and Future</a>.</li>
+                            <li>Highlighted reviewer for NeurIPS 2023 workshop <a href="https://xai-in-action.github.io/" target="_blank">XAI in Action: Past, Present, and Future Applications</a>.</li>
+                            <li>Co-founder and leader of Baot's community for women in research (2023-).</li>
+                            <li>Community leader at <a href="https://baot.org/?fbclid=IwY2xjawFvYDRleHRuA2FlbQIxMAABHWiRBZvRsAbYyrL2E7RLQudsdlfKFFmL-t2ywFObGVT4BcqJMRVC8cOEQQ_aem_2NdM9e7MBAbqdeT_idQfqA" target="_blank">Baot</a>, 
+                                Israel's largest community of experienced women in R&D (2021-2024).</li>
+                            <li>Program co-manager at <a href="https://datanights-il.github.io/" target="_blank">DataNights</a> (2020-2023).</li>
+                        </ul>
+                    </div>
+                </div>
+
+              <div class="section" id="talks">
+                    <div class="section-title">
+                        Talks
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li> Using Explainable Machine Learning - Gaps Between Academia and Industry, WiDS TLV (Roundtable discussion, 2023).</li>
+                            <li> <a href="https://youtu.be/8ZtSNClOVd8?si=fRq8MGEx6LS0r23B" target="_blank">Local Explanations - Concept and Methods</a>, 
+                                Explainable AI (XAI) Course by DataNights and Microsoft Reactor (2023).</li>                                
+                            <li> <a href="https://youtu.be/ITkxYPySrcE?si=klB92x9UYBAaiBjN" target="_blank">Problem Solving - What is the Problem?</a>, 
+                                DS Meta-Skills course by DataNights (2021).</li>
+                            <li> <a href="https://youtu.be/6qisPX7o-bg?si=igg85xEIyh5KgjAe" target="_blank">Behind the Scenes: Explainable AI With SHAP</a>, 
+                                Women on Stage Conference (2021).</li>
+                            <li> <a href="https://youtu.be/T7WQFF8JSGw?si=Sz083g9bzQHddCT3" target="_blank">Automation of Feature Engineering: Pros and Cons</a>,
+                                 PyCon Israel (2019).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section" id="teaching">
+                    <div class="section-title">
+                        Teaching (Hebrew University)
+                    </div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Introductory workshop to final project in data science, 67813 (2024-)</li>
+                            <li>Final project in data science, 67814 (2024-)</li>
+                            <li>Applied project, 52056 (2023-)</li>
+                            <li>Introduction to data science, 51127 (2023)</li>
+                            <li>Advanced statistical models A, 52801 (2022)</li>
+                            <li>Statistical learning and data analysis, 52525 (2022)</li>
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-placeholder"></div>
+
+
+
+        <!-- Scripts -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
