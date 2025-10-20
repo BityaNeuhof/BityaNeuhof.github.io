@@ -14,7 +14,7 @@
         --dark-grey: #232323;
         --header-font: "Helvetica Neue", sans-serif;
         --main-font: "Open Sans", sans-serif;
-        --header-font-weight: 200;
+        --header-font-weight: 600;
 
         --left-pad: 30px;
 
@@ -72,9 +72,10 @@ a:hover {
 .section-title {
     font-family: var(--header-font);
     font-weight: var(--header-font-weight);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     border-bottom: var(--lightest-grey) 1px solid;
     margin-bottom: 7px;
+    text-transform: uppercase;
 }
 
 .section-content {
